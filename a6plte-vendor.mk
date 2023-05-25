@@ -497,6 +497,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a6plte/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/libremosaic_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_wrapper.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/libremosaiclib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib.so \
+    vendor/samsung/a6plte/proprietary/vendor/lib/libril-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-samsung.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/samsung/a6plte/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
@@ -595,7 +596,6 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmiservices \
     libqsocket \
-    libril \
     libsdm-disp-vndapis \
     libtime_genoff \
     TimeService \
